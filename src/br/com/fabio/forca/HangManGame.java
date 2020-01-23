@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class HangManGame {
 
-    public static void main(String[] args) throws IOException, InterruptedException {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Word word = new Word();
         Integer trys = 5;
