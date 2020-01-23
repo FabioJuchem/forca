@@ -9,14 +9,14 @@ public class Word {
 
     List<String> characters = new ArrayList<>();
 
-    List<String> newWord = new ArrayList<>();
+    List<String> hideWord = new ArrayList<>();
 
     public Word() {
     }
 
     public Word(String word, List<String> lines, List<String> characters) {
         this.word = word;
-        this.newWord = lines;
+        this.hideWord = lines;
         this.characters = characters;
     }
 
@@ -30,8 +30,8 @@ public class Word {
         hideNewWord();
     }
 
-    public List<String> getNewWord() {
-        return newWord;
+    public List<String> getHideWord() {
+        return hideWord;
     }
 
     public List<String> getCharacters() {
@@ -48,19 +48,19 @@ public class Word {
 
     public void showCharacters(String character) {
         var positions = getCharacterPosition(character);
-        positions.forEach(x -> this.newWord.set(x, this.characters.get(x)));
+        positions.forEach(x -> this.hideWord.set(x, this.characters.get(x)));
     }
 
     private void splitWord(String regex) {
         var length = this.word.split(regex).length;
         for(int i = 0; i < length; i++) {
             this.characters.add(this.word.split(regex)[i]);
-            this.newWord.add(this.word.split(regex)[i]);
+            this.hideWord.add(this.word.split(regex)[i]);
         }
     }
 
     private void hideNewWord() {
-        this.getNewWord().replaceAll(x -> x = "_");
+        this.getHideWord().replaceAll(x -> x = "_");
     }
 
     private List<Integer> getCharacterPosition(String character) {

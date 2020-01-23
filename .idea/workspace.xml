@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48602171-e5e5-427a-9117-6b53bd3fe17f" name="Default Changelist" comment="" />
+    <list default="true" id="48602171-e5e5-427a-9117-6b53bd3fe17f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/br/com/fabio/forca/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/fabio/forca/Word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/fabio/forca/WordGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/fabio/forca/HangManGame.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +18,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1PnfRZtdxZJbTkK60xFNFeOp3PG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="D:/DesignPatterns/Design-Patterns-Java-I-Boas-pr-ticas-de-programa-o-3580cc85a4044a4995728d01808efabe4e328217" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -39,13 +47,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WordGame">
+  <component name="RunManager" selected="Application.HangManGame">
     <configuration name="CursoCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.fabio.curso.java_collections.CursoCollections" />
       <module name="curso" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.fabio.curso.java_collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HangManGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.fabio.forca.HangManGame" />
+      <module name="curso" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.fabio.forca.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,22 +113,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.fabio.forca.WordGame" />
-      <module name="curso" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.fabio.forca.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WordGame" />
+        <item itemvalue="Application.HangManGame" />
         <item itemvalue="Application.TestaCurso2" />
         <item itemvalue="Application.TestaCurso" />
         <item itemvalue="Application.TestaListaDeAula" />
@@ -128,17 +136,28 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/br/com/fabio/forca/WordGame.java</url>
-          <line>28</line>
+          <url>file://$PROJECT_DIR$/src/br/com/fabio/forca/HangManGame.java</url>
+          <line>30</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/br/com/fabio/forca/WordGame.java</url>
-          <line>27</line>
+          <url>file://$PROJECT_DIR$/src/br/com/fabio/forca/HangManGame.java</url>
+          <line>28</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

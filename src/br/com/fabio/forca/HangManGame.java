@@ -1,13 +1,11 @@
 package br.com.fabio.forca;
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class WordGame {
+public class HangManGame {
 
     public static void main(String[] args) throws IOException, InterruptedException {
         Scanner sc = new Scanner(System.in);
@@ -20,7 +18,7 @@ public class WordGame {
         word.setWord(sc.nextLine());
         clearScreen();
 
-        printAll(word.getNewWord());
+        printAll(word.getHideWord());
         while (wrongAnswers <= trys) {
             System.out.println();
             System.out.println();
@@ -29,7 +27,7 @@ public class WordGame {
             if (word.containCharacter(character)) {
                 System.out.println("Acertou!!! confira o resultado até agora");
                 word.showCharacters(character);
-                printAll(word.getNewWord());
+                printAll(word.getHideWord());
                 System.out.println();
             } else {
                 wrongAnswers++;
