@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48602171-e5e5-427a-9117-6b53bd3fe17f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/br/com/fabio/forca/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/fabio/forca/Word.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/fabio/forca/WordGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/fabio/forca/HangManGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/fabio/boliche/BowlingGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/fabio/boliche/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/fabio/boliche/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/fabio/boliche/Score.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/curso/br/com/fabio/forca/HangManGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/curso/br/com/fabio/forca/HangManGame.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,13 +51,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HangManGame">
-    <configuration name="CursoCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.fabio.curso.java_collections.CursoCollections" />
+  <component name="RunManager" selected="Application.BowlingGame">
+    <configuration name="BowlingGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.fabio.boliche.BowlingGame" />
       <module name="curso" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.fabio.curso.java_collections.*" />
+          <option name="PATTERN" value="br.com.fabio.boliche.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BowlingGame" />
         <item itemvalue="Application.HangManGame" />
         <item itemvalue="Application.TestaCurso2" />
         <item itemvalue="Application.TestaCurso" />
         <item itemvalue="Application.TestaListaDeAula" />
-        <item itemvalue="Application.CursoCollections" />
       </list>
     </recent_temporary>
   </component>
@@ -182,6 +186,59 @@
           <url>file://$PROJECT_DIR$/src/br/com/fabio/forca/Word.java</url>
           <line>50</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/fabio/boliche/BowlingGame.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/fabio/boliche/BowlingGame.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/fabio/boliche/BowlingGame.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/fabio/boliche/BowlingGame.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/fabio/boliche/BowlingGame.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/fabio/boliche/BowlingGame.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/fabio/boliche/BowlingGame.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/fabio/boliche/BowlingGame.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/fabio/boliche/BowlingGame.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/fabio/boliche/Player.java</url>
+          <line>33</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
